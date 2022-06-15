@@ -45,15 +45,7 @@ Or if using Anaconda:
 conda activate simplefoc
 python simpleFOCStudio.py
 ```
-If you get the following error 
-```
-qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
-```
-Try the following command
-```
-sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
-```
-It worked for me, hopefully it will for you.
+
 
 ### Usage
 *Simple**FOC**Studio* has several useful features:
